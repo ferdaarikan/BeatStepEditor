@@ -1,9 +1,13 @@
 # BeatStepEditor
 
+This is not official software, just a small script that maybe useful to others. Use at your own risk. You need to be comfortable with reading and writing device memory using the official software otherwise this script won't be useful.
+
 This script allows easy editing of Arturia Beatstep midi mappings. Arturia Beatstep supports selection of scales in ```SEQ``` mode. 
 **Midi Control Center** allows scales need to be manually entered for ```CNTRL``` mode however user interface is not ideal for editing multiple programs 1-16.
 
-**Warning** Midi Control Center does not like manual editing of .beatstep files due to the way they handle the file format. There is a high chance that you can break it, though this does not pose any risk to hardware.
+I didn't add editing the notes in ```SEQ``` mode as it is already relatively easy using the official software.
+
+**Warning** Midi Control Center does not like manual editing of .beatstep files due to the way they handle the file format. There is a high chance that you can break it, though this does not pose any risk to hardware. This script generates outputs that are compatible with the software.
 
 ## BeatStep Pad Layout
 
@@ -26,6 +30,8 @@ including octave information such as ```C1``` or ```C#2``` and so on. Both ```#`
 So even ```B#3``` is a valid entry.
 
 ```--out``` specifies the name of the output file after pad mappings are applied.
+
+Once you run the script you can import the generated .beatstep file into ***Midi Control Center*** and write to a memory bank using ```Store To``` button.
 
 ### Exporting Current Settings
 Connect to your hardware using ***Midi Control Center***. Select a device memory and click ```Recall From```. This will read the memory from hardware once completed you can click ```File > Export ``` to obtain the .beatstep file.
