@@ -3,7 +3,7 @@
 This is not official software, just a small script that maybe useful to others. Use at your own risk. You need to be comfortable with reading and writing device memory using the official software otherwise this script won't be useful.
 
 This script allows easy editing of Arturia Beatstep midi mappings. Arturia Beatstep supports selection of scales in ```SEQ``` mode. 
-**Midi Control Center** allows scales need to be manually entered for ```CNTRL``` mode however user interface is not ideal for editing multiple programs 1-16.
+**Midi Control Center** allows entering any notes for pads for ```CNTRL``` mode however user interface is not ideal for editing, especially for multiple programs 1-16.
 
 I didn't add editing the notes in ```SEQ``` mode as it is already relatively easy using the official software.
 
