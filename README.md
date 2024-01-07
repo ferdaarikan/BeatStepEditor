@@ -13,6 +13,8 @@ I didn't add editing the notes in ```SEQ``` mode as it is already relatively eas
 
 ![image](https://github.com/ferdaarikan/beatstep-remote/assets/13984102/58e9b1eb-f866-40b6-94eb-67609df67b41)
 
+<sub>image credit: [MusicMatter](https://www.musicmatter.co.uk)</sub>
+
 ||||||||| 
 |-----|-----|-----|-----|-----|-----|-----|-----|
 |Pad 1|Pad 2|Pad 3|Pad 4|Pad 5|Pad 6|Pad 7|Pad 8|
